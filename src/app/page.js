@@ -5,7 +5,7 @@ export default function Home() {
     <main className={styles.main}>
       <div className={styles.center}>
         <h1><Image
-	                   src="/TCPlogo.jpg"
+	                   src="/TCPlogo.jpeg"
 	                   alt="Vercel Logo"
                className={styles.vercelLogo}
                width={100}
