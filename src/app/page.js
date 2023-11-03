@@ -1,3 +1,4 @@
+import Image from 'next/image'
 import styles from './page.module.css'
 
 export default function Home() {
@@ -5,13 +6,13 @@ export default function Home() {
     <main className={styles.main}>
       <div className={styles.center}>
         <Image
-	                   src="/TCPlogo.jpeg"
-	                   alt="Vercel Logo"
-               className={styles.vercelLogo}
-               width={100}
-               height={24}
-               priority
-               />
+          src="/TCPlogo.jpeg"
+          alt="Vercel Logo"
+          className={styles.vercelLogo}
+          width={800}
+          height={450}
+          priority
+        />
       </div>
     </main>
   )
