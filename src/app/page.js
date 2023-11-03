@@ -4,7 +4,14 @@ export default function Home() {
   return (
     <main className={styles.main}>
       <div className={styles.center}>
-        <h1>Under Construction</h1>
+        <h1><Image
+	                   src="/vercel.svg"
+	                   alt="Vercel Logo"
+               className={styles.vercelLogo}
+               width={100}
+               height={24}
+               priority
+               /></h1>
       </div>
     </main>
   )
