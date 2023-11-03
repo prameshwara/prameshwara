@@ -8,7 +8,6 @@ export default function Home() {
         <Image
           src="/TCPlogo.jpeg"
           alt="Vercel Logo"
-          className={styles.vercelLogo}
           width={800}
           height={450}
           priority
